@@ -1,0 +1,22 @@
+bin/
+tmp/
+target/
+ignore/
+.metadata/
+*.jar
+
+# Eclipse Core
+.project
+.settings
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
