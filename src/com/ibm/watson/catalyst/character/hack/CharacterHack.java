@@ -54,7 +54,7 @@ public class CharacterHack {
    * Transforms UTF-8 into Watson-safe ASCII.
    * @param aString the string to transform
    */
-  public static String watsonTransform(final String aString) {
+  public static String transform(final String aString) {
     String result = aString;
     result = removeDecimal(result);
     result = transliterator.transliterate(result);
@@ -67,7 +67,7 @@ public class CharacterHack {
    * @param args
    */
   public static void main(String[] args) {
-    System.out.println(watsonTransform("I cän ©onvert - things &#038; stuff: ½."));
+    System.out.println(transform("I cän ©onvert - things &#038; stuff: ½."));
   }
   
 }
