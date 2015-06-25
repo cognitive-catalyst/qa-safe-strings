@@ -1,4 +1,4 @@
-package com.ibm.watson.catalyst.character.hack;
+package com.ibm.watson.catalyst.qa.safe.strings;
 
 import java.util.regex.Pattern;
 
@@ -6,7 +6,7 @@ import com.ibm.icu.text.Transliterator;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 
-public class WatsonSafeCharacter {
+public class QaSafeStrings {
   
   /**
    * An IBM open source object for mapping UTF-8 to ASCII since Watson can only handle ASCII characters.
