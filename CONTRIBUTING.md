@@ -20,7 +20,7 @@ Right now there is just one class: QaSafeStrings, located in the `src/` director
 - Update the [CHANGELOG](CHANGELOG.md) with the changes made by the pull request.
 
 ##Developer Certificate of Origin
-All contributions to Watson Catalyst projects must be accompanied by acknowledgment of, and agreement to, the Developer Certificate of Origin, reproduced below. Acknowledgment of and agreement to the Developer Certificate of Origin must be included in the comment section of each contribution and must take the form of DCO 1.1 Signed-off-by: {Full Name} <{email address}> (without the {}). Contributions without this acknowledgment will be required to add it before being accepted. If a contributor is unable or unwilling to agree to the Developer Certificate of Origin, their contribution will not be included.
+All contributions to Q&A Safe Strings must be accompanied by acknowledgment of, and agreement to, the Developer Certificate of Origin, reproduced below. Acknowledgment of and agreement to the Developer Certificate of Origin must be included in the comment section of each contribution and must take the form of DCO 1.1 Signed-off-by: {Full Name} <{email address}> (without the {}). Contributions without this acknowledgment will be required to add it before being accepted. If a contributor is unable or unwilling to agree to the Developer Certificate of Origin, their contribution will not be included.
 
 ```
 Developer Certificate of Origin
@@ -69,7 +69,7 @@ By making a contribution to this project, I certify that:
 ##Branching Model
 Feel free to add more branch prefixes for your own project.
 
-- Branches must be made off of the most current `develop` branch from `git@github.com:watson-catalyst/watson-catalyst.git`
+- Branches must be made off of the most current `develop` branch from `git@github.com:watson-catalyst/qa-safe-strings.git`
 - Branch names should be descriptive and describe what is being done in that branch
 - Pull requests must be made into our develop branch.
 - The following branch prefixes should be used when creating a new branch:
